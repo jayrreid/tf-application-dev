@@ -6,6 +6,7 @@ variable "region" {
 
 variable "eks_cluster_name" {
   description = "dev-cluster"
+  default = "dev-cluster"
 }
 
 variable "vpc_name" {
