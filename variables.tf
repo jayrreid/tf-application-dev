@@ -9,6 +9,16 @@ variable "eks_cluster_name" {
   default = "dev-cluster"
 }
 
+variable "gremlin_secret_teamID" {
+  description = "gremlin_secret_teamID"
+  default ="e61b3523-2466-5dcf-b601-b4a3f1eb8780"
+}
+
+variable "gremlin_secret_teamSecret" {
+  description = "gremlin_secret_teamSecret"
+  default ="21fa870a-5472-4aae-ba87-0a5472daae17"
+}
+
 variable "vpc_name" {
   default = "dev-vpc"
 }
