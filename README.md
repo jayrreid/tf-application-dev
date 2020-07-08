@@ -4,5 +4,6 @@ In a Terraform Cloud or Enterprise environment you could create a repo for this 
 
 # Provision an microservices blueprint architecture with EKS and VPC in AWS
 This Terraform configuration provisions a microservices blueprint in AWS using microservices terraform module which is comprised of the following modules:
+- terraform-aws-microservices v2.0.0
 - terraform-aws-eks v1.0.0
 - terraform-aws-vpc v1.0.0.
